@@ -197,3 +197,8 @@ footer{
     background-color: gold;
     border: 3px solid goldenrod;
 }
+
+#direitos{
+    display: inline-block;
+    margin-right: 100px;
+}
