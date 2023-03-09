@@ -7,8 +7,6 @@
 .container-menu{
     width: 100%;
     height: 200px;
-    max-height: 200px;
-    max-width: 100%;
     background-color: rgb(0, 0, 0);
     color: white;
 }
@@ -21,14 +19,14 @@
 }
 
 .container-menu img{
-    width:30px;
+    width:28px;
     position: relative;
     left: -300px;
     top: 0px;
 }
 
 .container-menu form{
-    padding-top: 50px;
+    padding-top: 30px;
     padding-left: 510px;
 }
 
@@ -40,6 +38,8 @@
     background-color: rgb(255, 255, 255);
     text-align: center;
 }
+
+/* CONTEUDO PRINCIPAL */
 
 .container{
     width: 100%;
@@ -109,6 +109,8 @@
     border-radius: 5%;
     transition: .5s;
 }
+
+/* RODAPE */
 
 footer{
     background-color: rgb(0, 0, 0);  
@@ -201,4 +203,191 @@ footer{
 #direitos{
     display: inline-block;
     margin-right: 100px;
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .container-menu h1{
+        margin-left: 100px;
+    }
+
+    .container-menu form{
+        padding-left: 50px;
+    }
+
+    h2, p, button{
+        margin-left: 10px;
+    }
+
+    .container-sobrenos img{
+        display: none;
+    }
+
+    .container-conserto img{
+        display: none;
+    }
+
+    .container-conserto h2{
+        padding-top: 30px;
+    }
+
+    #mensagem{
+        display: none;
+    }
+
+    #form{
+        display: none;
+    }
+
+    #contato{
+        padding-left: 0;
+    }
+
+    #contato h3{
+        margin-left: 10px;
+    }
+
+    #endereco h3{
+        margin-left: 10px;
+    }
+
+}
+
+@media (min-width: 481px) and (max-width: 768px){
+    .container-menu h1{
+        margin-left:  30%;
+    }
+
+    .container-menu form{
+        padding-left: 25%;
+        
+    }
+
+    h2, p, button{
+        margin-left: 10px;
+    }
+
+    .container-sobrenos img{
+        display: none;
+    }
+
+    .container-conserto img{
+        display: none;
+    }
+
+    .container-conserto h2{
+        padding-top: 30px;
+    }
+
+    #mensagem{
+        display: none;
+    }
+
+    #form{
+        display: none;
+    }
+
+    #contato{
+        padding-left: 0;
+    }
+
+    #contato h3{
+        margin-left: 10px;
+    }
+
+    #endereco h3{
+        margin-left: 10px;
+    }
+
+}
+
+@media (min-width: 769px) and (max-width: 1024px){
+    .container-menu h1{
+        margin-left: 50%;
+    }
+
+    .container-menu form{
+        padding-left: 45%;
+    }
+
+    h2, p, button{
+        margin-left: 10%;
+    }
+
+    .container-sobrenos img{
+        display: none;
+    }
+
+    .container-conserto img{
+        display: none;
+    }
+
+    .container-conserto h2{
+        padding-top: 30px;
+    }
+
+    #mensagem{
+        display: none;
+    }
+
+    #form{
+        display: none;
+    }
+
+    #contato{
+        padding-left: 0;
+    }
+
+    #contato h3{
+        margin-left: 10px;
+    }
+
+    #endereco h3{
+        margin-left: 10px;
+    }
+
+}
+
+@media (min-width: 1025px) and (max-width: 1200px){
+    .container-menu h1{
+        margin-left: 40%;
+    }
+
+    .container-menu form{
+        padding-left: 35%;
+    }
+
+    h2, p, button{
+        margin-left: 10px;
+    }
+
+    .container-sobrenos img, .container-conserto img{
+        right: 1%;
+    }
+
+    .container-conserto h2{
+        padding-top: 30px;
+    }
+
+    #mensagem{
+        display: none;
+    }
+
+    #form{
+        display: none;
+    }
+
+    #contato{
+        padding-left: 15%;
+    }
+
+    #contato h3{
+        margin-left: 10px;
+    }
+
+    #endereco h3{
+        margin-left: 200px;
+    }
+
 }
