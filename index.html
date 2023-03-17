@@ -12,9 +12,10 @@
         <div class="container-menu">
             <h1>JR CELULARES</h1>
             <img src="./photos/Logo.png" alt="Logo">
-            <form>
-                <input type="search" placeholder="Procure seu produto">
-            </form>
+            <div class="botoes-header">
+                <button onclick="temaBlack()">TEMA BLACK</button>
+                <button onclick="temaOriginal()">TEMA ORIGINAL</button>
+            </div>
         </div>
     </header>
 
@@ -63,11 +64,14 @@
                     <input type="email" placeholder="Digite seu melhor email" required>
                     <label>Senha:</label>
                     <input type="password" placeholder="Digite sua melhor senha" required>
+                    <input onclick = "botaoEnviar()" class="botao-enviar" type="submit" placeholder="Enviar">
                 </form>
-                <input class="botao-enviar" type="submit" placeholder="Enviar">
+
                 <p id="diretos">&copy;Todos os direitos reservados ao criador Ícaro Lima Batista</p>
             </section>
         </div>
     </footer>
+
+    <script src="./script.js"></script>
 </body>
 </html>
